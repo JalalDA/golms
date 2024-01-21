@@ -1,5 +1,5 @@
 # Pilih base image dari Golang, dengan versi yang diinginkan
-FROM golang:1.23
+FROM golang:1.21.6
 
 # Set working directory di dalam container
 WORKDIR /app
